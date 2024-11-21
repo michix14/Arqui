@@ -1,81 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
 
-
-    >
-
-
-    <!-- res/layout/bottom_bar.xml -->
+    <!-- Contenedor principal de los botones -->
     <LinearLayout
-
-        android:layout_width="277dp"
-        android:layout_height="95dp"
-
+        android:id="@+id/bottomBarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="20dp"
-        tools:ignore="MissingConstraints"
         android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="16dp"
+        android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-
+        <!-- Botón Administrar Clientes -->
         <LinearLayout
-            android:layout_width="8dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <ImageButton
                 android:id="@+id/buttonCliente"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_weight="1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:background="@android:color/transparent"
-                android:clickable="true"
-                android:contentDescription="Buscar"
-                android:focusable="true"
-                android:src="@drawable/groups_24px" />
+                android:src="@drawable/groups_24px"
+                android:contentDescription="Administrar Clientes"/>
 
             <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
+                android:id="@+id/textViewAdmClientes"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Adm. Clientes" />
+                android:text="Adm. Clientes"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:gravity="center" />
         </LinearLayout>
 
+        <!-- Botón Administrar Ejercicios -->
         <LinearLayout
-            android:layout_width="23dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <ImageButton
                 android:id="@+id/buttonEjercicio"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_weight="1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:background="@android:color/transparent"
-                android:clickable="true"
-                android:contentDescription="Usuarios"
-                android:focusable="true"
-                android:src="@drawable/exercise_24px" />
+                android:src="@drawable/exercise_24px"
+                android:contentDescription="Administrar Ejercicios"/>
 
             <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
+                android:id="@+id/textViewAdmEjercicios"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Adm. Ejercicios" />
+                android:text="Adm. Ejercicios"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:gravity="center" />
         </LinearLayout>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

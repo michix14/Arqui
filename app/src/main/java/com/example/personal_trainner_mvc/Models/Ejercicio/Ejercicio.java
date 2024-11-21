@@ -85,7 +85,7 @@ public class Ejercicio {
 
     // Métodos CRUD
 
-    // Método para crear un nuevo ejercicio4
+    // Método para crear un nuevo ejercicio
 
 
     public void Validar(String nombre, String descripcion, String link, int categoria_id) throws IllegalArgumentException {

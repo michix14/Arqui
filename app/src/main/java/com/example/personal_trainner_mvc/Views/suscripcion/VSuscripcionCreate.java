@@ -3,7 +3,9 @@ package com.example.personal_trainner_mvc.Views.suscripcion;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,6 +19,7 @@ import java.util.List;
 public class VSuscripcionCreate extends AppCompatActivity {
 
     private Spinner clienteSpinner, estrategiaSpinner;
+    private EditText editTextFechaInicio;
     private Button buttonGuardar;
     private SuscripcionController suscripcionController;
     private ClienteController clienteController;
@@ -33,6 +36,7 @@ public class VSuscripcionCreate extends AppCompatActivity {
         // Referencias a los elementos de la UI
         clienteSpinner = findViewById(R.id.spinnerCliente);
         estrategiaSpinner = findViewById(R.id.spinnerEstrategia);
+        editTextFechaInicio = findViewById(R.id.editTextFechaInicio);
         buttonGuardar = findViewById(R.id.buttonGuardar);
 
         // Cargar datos en los Spinners
@@ -62,14 +66,24 @@ public class VSuscripcionCreate extends AppCompatActivity {
 
     // Guardar suscripción
     private void guardarSuscripcion() {
-        Cliente clienteSeleccionado = (Cliente) clienteSpinner.getSelectedItem();
-        String estrategiaSeleccionada = estrategiaSpinner.getSelectedItem().toString();
+        try {
+            Cliente clienteSeleccionado = (Cliente) clienteSpinner.getSelectedItem();
+            String estrategiaSeleccionada = estrategiaSpinner.getSelectedItem().toString();
+            String fechaInicio = editTextFechaInicio.getText().toString();
 
-        if (clienteSeleccionado == null || estrategiaSeleccionada.isEmpty()) {
-            throw new IllegalArgumentException("Cliente o estrategia no seleccionados.");
+            // Validar campos obligatorios
+            if (clienteSeleccionado == null || estrategiaSeleccionada.isEmpty() || fechaInicio.isEmpty()) {
+                throw new IllegalArgumentException("Todos los campos son obligatorios.");
+            }
+
+            // Llamar al controlador para manejar la lógica
+            suscripcionController.createSuscripcion(clienteSeleccionado.getId(), estrategiaSeleccionada, fechaInicio);
+
+            // Mostrar mensaje de éxito
+            Toast.makeText(this, "Suscripción creada con éxito.", Toast.LENGTH_LONG).show();
+            finish(); // Cierra la actividad o redirige a otra vista
+        } catch (Exception e) {
+            Toast.makeText(this, "Error al guardar la suscripción: " + e.getMessage(), Toast.LENGTH_LONG).show();
         }
-
-        // Llamar al controlador para manejar la lógica
-        suscripcionController.createSuscripcion(clienteSeleccionado.getId(), estrategiaSeleccionada);
     }
 }

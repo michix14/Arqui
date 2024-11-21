@@ -38,6 +38,8 @@ id EcreateDescripcionCEjercicio
 id EcreateNombreCComida
 id EcreateNombreCEjercicio
 id altura
+id bottomBar
+id bottomBarContainer
 id bottom_bar_container
 id btnAgregarDetalles
 id btnCCDesabilitar
@@ -91,6 +93,7 @@ id editTextCreateClienteEstatura
 id editTextCreateClienteNombre
 id editTextDescripcionComida
 id editTextDia
+id editTextFechaInicio
 id editTextFormato
 id editTextNombreComida
 id editTextRepeticiones
@@ -102,7 +105,6 @@ id ejercicio
 id enviarpdf
 id erepeticiones
 id eserries
-id linearLayout
 id listViewCategoriaComida
 id listViewCategoriaEjercicio
 id listViewClientes
@@ -126,10 +128,10 @@ id taskOptions
 id taskTitle
 id textView
 id textView2
-id textView3
 id textView4
-id textView5
-id textView6
+id textViewAdmClientes
+id textViewAdmEjercicios
+id textViewClientes
 id textViewEdad
 id textViewNombre
 id textViewRutina

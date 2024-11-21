@@ -3223,6 +3223,8 @@ int id beginning 0x7f080061
 int id bestChoice 0x7f080062
 int id blocking 0x7f080063
 int id bottom 0x7f080064
+int id bottomBar 0x7f080260
+int id bottomBarContainer 0x7f080261
 int id bottom_bar_container 0x7f08025e
 int id bounce 0x7f080065
 int id bounceBoth 0x7f080066
@@ -3353,6 +3355,7 @@ int id editTextCreateClienteEstatura 0x7f0800e1
 int id editTextCreateClienteNombre 0x7f0800e2
 int id editTextDescripcionComida 0x7f0800e3
 int id editTextDia 0x7f0800e4
+int id editTextFechaInicio 0x7f080265
 int id editTextFormato 0x7f0800e6
 int id editTextNombreComida 0x7f0800e8
 int id editTextRepeticiones 0x7f0800e9
@@ -3432,7 +3435,6 @@ int id legacy 0x7f080132
 int id line1 0x7f080133
 int id line3 0x7f080134
 int id linear 0x7f080135
-int id linearLayout 0x7f080136
 int id listMode 0x7f080137
 int id listViewCategoriaComida 0x7f080138
 int id listViewCategoriaEjercicio 0x7f080139
@@ -3666,10 +3668,10 @@ int id textStart 0x7f08021b
 int id textTop 0x7f08021c
 int id textView 0x7f08021d
 int id textView2 0x7f08021e
-int id textView3 0x7f08021f
 int id textView4 0x7f080220
-int id textView5 0x7f080221
-int id textView6 0x7f080222
+int id textViewAdmClientes 0x7f080262
+int id textViewAdmEjercicios 0x7f080263
+int id textViewClientes 0x7f080264
 int id textViewEdad 0x7f080223
 int id textViewNombre 0x7f080224
 int id textViewRutina 0x7f080225

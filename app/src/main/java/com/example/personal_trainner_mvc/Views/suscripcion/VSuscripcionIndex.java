@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +22,7 @@ import java.util.List;
 public class VSuscripcionIndex extends AppCompatActivity {
 
     private SuscripcionController suscripcionController;
+    private ImageButton buttonEjercicio, buttonCliente;
     private List<Suscripcion> listaSuscripciones;
     private ListView listViewSuscripcion;
     private Button buttonCreateSuscripcion;
@@ -29,13 +31,14 @@ public class VSuscripcionIndex extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suscripcion_index);
-
+        buttonCliente = findViewById(R.id.buttonCliente);
+        buttonEjercicio = findViewById(R.id.buttonEjercicio);
         listViewSuscripcion = findViewById(R.id.listViewSuscripcion);
         buttonCreateSuscripcion = findViewById(R.id.buttonCrearSuscripcion);
 
         // Inicializar el controlador y obtener la lista de suscripciones
         suscripcionController = new SuscripcionController(this);
-        listaSuscripciones = suscripcionController.FindAll();
+        listaSuscripciones = suscripcionController.findAll();
 
         // Configurar el adaptador para el ListView
         ArrayAdapter<Suscripcion> adapter = new ArrayAdapter<Suscripcion>(this, R.layout.activity_item_suscripcion, R.id.btnSuscripcion, listaSuscripciones) {
@@ -47,7 +50,8 @@ public class VSuscripcionIndex extends AppCompatActivity {
                 Button btnSuscripcion = view.findViewById(R.id.btnSuscripcion);
 
                 final Suscripcion suscripcion = listaSuscripciones.get(position);
-                btnSuscripcion.setText("Monto: " + suscripcion.getMonto() + "\n Duración: " + suscripcion.getDuracion());
+                btnSuscripcion.setText("Monto: " + suscripcion.getMonto() + "\n Duración: " + suscripcion.getDuracion()
+                        + "\n Fecha Fin: " + suscripcion.getFechaFin());
 
                 // Configurar la acción al hacer clic en el botón de suscripción
                 btnSuscripcion.setOnClickListener(new View.OnClickListener() {
@@ -84,5 +88,18 @@ public class VSuscripcionIndex extends AppCompatActivity {
                 BotonesRutas.BtnCrearSuscripcion(v.getContext());
             }
         });
+        buttonCliente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BotonesRutas.BtnCliente(v.getContext());
+            }
+        });
+        buttonEjercicio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BotonesRutas.BtnEjercicio(v.getContext());
+            }
+        });
+
     }
 }

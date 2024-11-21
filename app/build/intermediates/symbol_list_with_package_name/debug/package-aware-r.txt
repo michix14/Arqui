@@ -3224,6 +3224,8 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomBar
+id bottomBarContainer
 id bottom_bar_container
 id bounce
 id bounceBoth
@@ -3354,6 +3356,7 @@ id editTextCreateClienteEstatura
 id editTextCreateClienteNombre
 id editTextDescripcionComida
 id editTextDia
+id editTextFechaInicio
 id editTextFormato
 id editTextNombreComida
 id editTextRepeticiones
@@ -3433,7 +3436,6 @@ id legacy
 id line1
 id line3
 id linear
-id linearLayout
 id listMode
 id listViewCategoriaComida
 id listViewCategoriaEjercicio
@@ -3667,10 +3669,10 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView3
 id textView4
-id textView5
-id textView6
+id textViewAdmClientes
+id textViewAdmEjercicios
+id textViewClientes
 id textViewEdad
 id textViewNombre
 id textViewRutina
