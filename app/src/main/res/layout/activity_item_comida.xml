@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="109dp"
+        android:orientation="horizontal"
+       android:background="@drawable/radius_item"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btnComida"
+            android:layout_width="271dp"
+            android:layout_height="96dp"
+            android:background="@android:color/transparent"
+            android:text="Cliente"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnComidadeelete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="cl"
+            android:background="@drawable/delete_24px"
+            tools:ignore="MissingConstraints">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

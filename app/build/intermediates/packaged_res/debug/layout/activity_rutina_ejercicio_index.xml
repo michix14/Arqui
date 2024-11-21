@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/fondoazul"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+         android:background="@color/fondoazul"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <!-- Incluir la barra inferior -->
+        <include
+            layout="@layout/bottom_bar"
+
+            tools:layout_editor_absoluteX="parent"
+            tools:layout_editor_absoluteY="parent"
+
+
+            />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listViewRutinasEjercicio"
+        android:layout_width="383dp"
+        android:layout_height="620dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="112dp"
+
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"
+
+        android:padding="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonCrearRutina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="132dp"
+        android:text="+"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#FB7E6A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/listViewRutinasEjercicio" />
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+
+        tools:ignore="MissingClass,MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Rutinas de Ejercicio"
+            android:textAlignment="center"
+            android:textColor="#E8E0E0"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

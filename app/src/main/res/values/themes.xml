@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PrimerP_Arqui_entrenador_java" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item nombre="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PrimerP_Arqui_entrenador_java" parent="Base.Theme.PrimerP_Arqui_entrenador_java" />
+</resources>

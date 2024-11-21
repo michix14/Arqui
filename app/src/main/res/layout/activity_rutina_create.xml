@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.personal_trainner_mvc.Views.rutina.VRutinaCreate">
+
+    <!-- Título de la vista -->
+    <TextView
+        android:id="@+id/textViewRutina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Rutina"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Campo de texto para el formato -->
+    <EditText
+        android:id="@+id/editTextFormato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Formato"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/textViewRutina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp" />
+
+    <!-- Spinner para seleccionar la suscripción -->
+    <Spinner
+        android:id="@+id/spinnerSuscripcion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/editTextFormato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para guardar la rutina -->
+    <Button
+        android:id="@+id/buttonGuardarRutina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Rutina"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/spinnerSuscripcion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

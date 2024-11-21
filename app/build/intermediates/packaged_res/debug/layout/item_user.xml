@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/circle_backgorund"
+    android:padding="16dp">
+
+    <!-- Icono de la Tarea -->
+    <ImageView
+        android:id="@+id/taskIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/user"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="Task Icon"/>
+
+    <!-- Nombre de la Tarea -->
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Task Title"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/taskIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toTopOf="@+id/taskDate" />
+
+    <!-- Fecha de la Tarea -->
+    <TextView
+        android:id="@+id/taskDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2 days ago"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        app:layout_constraintStart_toEndOf="@+id/taskIcon"
+        app:layout_constraintTop_toBottomOf="@+id/taskTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <!-- Botón de Opciones -->
+    <ImageView
+        android:id="@+id/taskOptions"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+
+        android:contentDescription="Options"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

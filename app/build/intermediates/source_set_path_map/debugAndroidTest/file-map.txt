@@ -1,0 +1,5 @@
+com.example.primerp_arqui_entrenador_java.test.app-core-1.6.1-0 C:\Users\HP\.gradle\caches\transforms-3\43d69984aa7243912c8cd27618396e30\transformed\core-1.6.1\res
+com.example.primerp_arqui_entrenador_java.test.app-androidTest-1 D:\UAGRM\9 Noveno Semestre\Movil_MVC_Trainner-ale\app\build\generated\res\resValues\androidTest\debug
+com.example.primerp_arqui_entrenador_java.test.app-mergeDebugAndroidTestResources-2 D:\UAGRM\9 Noveno Semestre\Movil_MVC_Trainner-ale\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.primerp_arqui_entrenador_java.test.app-mergeDebugAndroidTestResources-3 D:\UAGRM\9 Noveno Semestre\Movil_MVC_Trainner-ale\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.primerp_arqui_entrenador_java.test.app-merged_res-4 D:\UAGRM\9 Noveno Semestre\Movil_MVC_Trainner-ale\app\build\intermediates\merged_res\debugAndroidTest

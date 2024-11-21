@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="20dp"
+        android:background="#D6E1E0"
+        android:gravity="center_horizontal">
+
+
+
+
+        <!-- Campo para el descripcion del cliente -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Registrar Cliente"
+            android:textColor="#060606"
+            />
+
+        <!-- Campo para el nombre del cliente -->
+        <EditText
+            android:id="@+id/editTextCreateClienteNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+
+            android:textColor="#333333" />
+
+
+        <!-- Campo para el número de celular -->
+        <EditText
+            android:id="@+id/editTextCClienteCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Celular"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo para el peso del cliente -->
+        <EditText
+            android:id="@+id/editTextCClientePeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso (kg)"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo para la altura del cliente -->
+        <EditText
+            android:id="@+id/editTextCreateClienteEstatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Altura (m)"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo para la edad del cliente -->
+        <EditText
+            android:id="@+id/editTextCClienteEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edad"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCreateClienteDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Direccion"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo para el género del cliente -->
+
+
+
+        <!-- Campo para las notas adicionales sobre el cliente -->
+
+
+        <!-- Botón para guardar los datos -->
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="364dp"
+        android:layout_height="215dp"
+        android:background="@drawable/bottom_bar_radius"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Botón para guardar los datos -->
+        <Button
+            android:id="@+id/buttonGuardar"
+            android:layout_width="129dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/circle_backgorund"
+            android:backgroundTint="#38AF2A"
+            android:padding="10dp"
+            android:text="Registrar Cliente"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Botón para regresar a la pantalla anterior -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="123dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/circle_backgorund"
+            android:backgroundTint="#C9D4D4"
+            android:padding="10dp"
+            android:text="Atrás"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Incluir la barra inferior -->
+        <include
+            layout="@layout/bottom_bar"
+            android:layout_width="288dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="0dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoazul"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="609dp"
+        android:background="@color/fondoazul"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="5dp">
+
+        <!-- Campo para el descripcion del cliente -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="205dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="Rutinas"
+            android:textAlignment="center"
+            android:textColor="#E8E1E1"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/ECreateRutinaEDescripcion"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnañadirejercicio"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/radius"
+            android:text="Añadir ejercicio"
+            android:textColor="@color/white"
+            />
+
+        <ListView
+            android:id="@+id/listViewRutinasEjercicioDetalle"
+            android:layout_width="380dp"
+            android:layout_height="450dp"
+
+            android:background="@color/fondoazul"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="16dp"
+
+            android:padding="10dp"
+
+            tools:ignore="MissingConstraints">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="136dp"
+        android:background="@drawable/bottom_bar_radius"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btnGuardarRutinaEjercicio"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/radius"
+            android:padding="12dp"
+            android:text="Registrar RutinaEjercicio"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Botón para regresar a la pantalla anterior -->
+
+
+        <!-- Incluir la barra inferior -->
+        <include layout="@layout/bottom_bar" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

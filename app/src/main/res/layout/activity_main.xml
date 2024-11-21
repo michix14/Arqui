@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal_trainner_mvc.Views.cliente.MainActivity"
+     android:background="@color/white"
+    >
+
+
+    <!-- Barra Inferior-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="358dp"
+        android:layout_height="69dp"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <!-- Incluir la barra inferior -->
+        <include
+            layout="@layout/bottom_bar"
+
+            android:layout_width="match_parent"
+
+
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="parent"
+            tools:layout_editor_absoluteY="parent" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listViewClientes"
+        android:layout_width="271dp"
+        android:layout_height="416dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="256dp"
+
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+
+        android:padding="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonCrearCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/botton_circule_add"
+        android:backgroundTint="#38AF2A"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/listViewClientes" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="128dp"
+        android:layout_height="84dp"
+        android:padding="30dp"
+        android:text="Clientes"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+
+    <!-- android:divider="@android:color/darker_gray" -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

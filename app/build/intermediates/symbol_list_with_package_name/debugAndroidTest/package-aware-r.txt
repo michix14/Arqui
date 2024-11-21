@@ -1,0 +1,3 @@
+com.example.primerp_arqui_entrenador_java.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

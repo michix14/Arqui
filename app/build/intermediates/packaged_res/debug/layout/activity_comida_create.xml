@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoazul"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        android:gravity="center_horizontal">
+
+        <!-- Campo para el nombre de la comida -->
+        <EditText
+            android:id="@+id/editTextNombreComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo para la descripción de la comida -->
+        <EditText
+            android:id="@+id/editTextDescripcionComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+
+        <EditText
+            android:id="@+id/editTextCaloriasComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calorias"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextproteinasComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="proteinas"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextgrasasComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="grasas"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+
+
+
+
+
+
+
+        <!-- Campo para la URL del video -->
+        <EditText
+            android:id="@+id/editTextCVideoUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Video URL"
+            android:inputType="textUri"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo para la URL de la imagen -->
+        <EditText
+            android:id="@+id/editTextCImageUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imagen URL"
+            android:inputType="textUri"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campo para el ID de la categoría -->
+
+
+
+        <Spinner
+            android:id="@+id/editTextCTipoComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/rounded_edittext" />
+
+
+
+        <!-- Botón para guardar los datos de la comida -->
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="404dp"
+        android:layout_height="195dp"
+        android:background="@drawable/bottom_bar_radius"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Botón para guardar los datos -->
+        <Button
+            android:id="@+id/buttonGuardarComida"
+            android:layout_width="129dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/circle_backgorund"
+            android:backgroundTint="#FB7E6A"
+            android:padding="10dp"
+            android:text="Registrar Cliente"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Botón para regresar a la pantalla anterior -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="123dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/circle_backgorund"
+            android:backgroundTint="#FB7E6A"
+            android:padding="10dp"
+            android:text="Atrás"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Incluir la barra inferior -->
+        <include
+            layout="@layout/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

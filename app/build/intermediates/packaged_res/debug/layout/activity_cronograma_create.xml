@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.personal_trainner_mvc.Views.suscripcion.VSuscripcionIndex"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerRutina"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerEjercicio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/spinnerRutina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextDia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Día"
+        app:layout_constraintTop_toBottomOf="@id/spinnerEjercicio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextRepeticiones"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Repeticiones"
+        app:layout_constraintTop_toBottomOf="@id/editTextDia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextSeries"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Series"
+        app:layout_constraintTop_toBottomOf="@id/editTextRepeticiones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAgregarEjercicio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Agregar Ejercicio"
+        app:layout_constraintTop_toBottomOf="@id/editTextSeries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/listViewEjercicios"
+        android:layout_width="357dp"
+        android:layout_height="427dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGuardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonAgregarEjercicio" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="Guardar Cronograma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        layout="@layout/bottom_bar"
+        android:layout_width="329dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

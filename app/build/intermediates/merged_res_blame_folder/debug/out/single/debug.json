@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_drafts_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\drafts_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_radius_table.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\radius_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_rutina_ejercicio_index.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_rutina_ejercicio_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_rutina_ejercicio_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_rutina_ejercicio_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_suscripcion_create.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_suscripcion_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_cronograma_show.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_cronograma_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_suscripcion_index.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_suscripcion_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_cliente_show.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_cliente_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_item_categoria_comida.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_item_categoria_comida.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_rutina_create.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_rutina_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_item_comida.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_item_comida.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_delete_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\delete_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_cliente_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_cliente_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_ejercicio_index.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_ejercicio_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_comida_create.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_comida_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_item_ejercicio.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_item_ejercicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_bottom_bar_radius.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\bottom_bar_radius.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_groups_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\groups_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_rutina_ejercicio_create.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_rutina_ejercicio_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_bottom_bar.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\bottom_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_item_suscripcion.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_item_suscripcion.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_categoria_ejercicio.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_categoria_ejercicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_user2.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\user2.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_rutina_index.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_rutina_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_fitness_center_40px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\fitness_center_40px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_rutina_ejercicio_detalle.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_rutina_ejercicio_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_item_rutina.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_item_rutina.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_restaurant_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\restaurant_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_radius_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\radius_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_fitness_center_blanco_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\fitness_center_blanco_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.primerp_arqui_entrenador_java.app-merged_res-31:/layout_activity_cliente_show.xml.flat",
+        "source": "com.example.primerp_arqui_entrenador_java.app-main-33:/layout/activity_cliente_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_cliente_create.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_cliente_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_person_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\person_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_item_categoria_ejercicio.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_item_categoria_ejercicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_radius.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\radius.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_ejercicio_create.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_ejercicio_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_rutina_ejercicio_detalle_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_rutina_ejercicio_detalle_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_user.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\user.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_categoria_comida.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_categoria_comida.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_circle_backgorund.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\circle_backgorund.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_id_card_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\id_card_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_comida_index.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_comida_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\layout_activity_cronograma_create.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\layout\\activity_cronograma_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_botton_circule_add.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\botton_circule_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_exercise_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\exercise_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_routine_24px.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\routine_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    }
+]
