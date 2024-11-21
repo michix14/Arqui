@@ -40,7 +40,7 @@ public class VRutinaCreate extends AppCompatActivity {
 
         // Cargar suscripciones en el Spinner
         suscripcionController = new SuscripcionController(VRutinaCreate.this);
-        suscripciones = suscripcionController.FindAll();
+        suscripciones = suscripcionController.findAll();
         ArrayAdapter<Suscripcion> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, suscripciones);
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         suscripcion_id.setAdapter(adaptador);

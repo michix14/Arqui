@@ -152,10 +152,6 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.primerp_arqui_entrenador_java.app-merged_res-31:/layout_activity_cliente_show.xml.flat",
-        "source": "com.example.primerp_arqui_entrenador_java.app-main-33:/layout/activity_cliente_show.xml"
-    },
-    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\xml_file_paths.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\xml\\file_paths.xml"
     },
@@ -262,5 +258,9 @@
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.primerp_arqui_entrenador_java.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.primerp_arqui_entrenador_java.app-merged_res-31:/layout_activity_suscripcion_create.xml.flat",
+        "source": "com.example.primerp_arqui_entrenador_java.app-main-33:/layout/activity_suscripcion_create.xml"
     }
 ]

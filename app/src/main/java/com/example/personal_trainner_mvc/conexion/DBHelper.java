@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "personal_trainner.db";
-    private static final int DATABASE_VERSION = 4;
+    private static final int DATABASE_VERSION = 5;
 
     public DBHelper(Context context) {
 
@@ -39,9 +39,12 @@ public class DBHelper extends SQLiteOpenHelper {
                     "Monto INTEGER," +
                     "Duracion TEXT NOT NULL," +
                     "cliente_id INTEGER," +
+                    "fecha_inicio TEXT," +  // Formato ISO: "YYYY-MM-DD"
+                    "fecha_fin TEXT," +
                     "FOREIGN KEY (cliente_id) REFERENCES Cliente(id) " +
                     "ON UPDATE CASCADE ON DELETE CASCADE" +
                     ");";
+
 
     private static final String CREATE_TABLE_RUTINA =
             "CREATE TABLE Rutina (" +

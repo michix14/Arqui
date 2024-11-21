@@ -18,10 +18,19 @@ public class Suscripcion {
     private int monto;
     private String duracion;
     private int cliente_id;
+    private String fechaInicio; // Nueva propiedad
+    private String fechaFin;    // Nueva propiedad
 
     @Override
     public String toString() {
-        return ""+cliente_id;
+        return "Suscripcion{" +
+                "id=" + id +
+                ", monto=" + monto +
+                ", duracion='" + duracion + '\'' +
+                ", cliente_id=" + cliente_id +
+                ", fechaInicio='" + fechaInicio + '\'' +
+                ", fechaFin='" + fechaFin + '\'' +
+                '}';
     }
 
     private static final String TABLE_NAME = "Suscripcion";
@@ -29,11 +38,14 @@ public class Suscripcion {
     private static final String COLUMN_MONTO = "monto";
     private static final String COLUMN_DURACION = "duracion";
     private static final String COLUMN_CLIENTE_ID = "cliente_id";
+    private static final String COLUMN_FECHA_INICIO = "fecha_inicio"; // Nueva columna
+    private static final String COLUMN_FECHA_FIN = "fecha_fin";       // Nueva columna
 
     private SQLiteDatabase db;
 
-    //Referencia a estrategia
+    // Referencia a estrategia
     private StrategySuscripcion strategySuscripcion;
+
     public void setStrategySuscripcion(StrategySuscripcion strategySuscripcion) {
         this.strategySuscripcion = strategySuscripcion;
     }
@@ -43,8 +55,9 @@ public class Suscripcion {
         if (strategySuscripcion == null) {
             throw new IllegalStateException("No se ha configurado una estrategia.");
         }
-        strategySuscripcion .aplicar(this);
+        strategySuscripcion.aplicar(this);
     }
+
     // Constructor
     public Suscripcion(Context context) {
         DBHelper dbHelper = new DBHelper(context);
@@ -87,22 +100,39 @@ public class Suscripcion {
         this.cliente_id = cliente_id;
     }
 
+    public String getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public void setFechaInicio(String fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+
+    public String getFechaFin() {
+        return fechaFin;
+    }
+
+    public void setFechaFin(String fechaFin) {
+        this.fechaFin = fechaFin;
+    }
+
     // Métodos CRUD
 
     // Crear una nueva suscripción
     public void create() {
         ContentValues values = new ContentValues();
-        Log.d("cadena", this.duracion);
         values.put(COLUMN_MONTO, this.monto);
         values.put(COLUMN_DURACION, this.duracion);
         values.put(COLUMN_CLIENTE_ID, this.cliente_id);
+        values.put(COLUMN_FECHA_INICIO, this.fechaInicio); // Nueva columna
+        values.put(COLUMN_FECHA_FIN, this.fechaFin);       // Nueva columna
         db.insert(TABLE_NAME, null, values);
     }
 
     // Buscar suscripción por ID
     public Suscripcion findById(int id) {
         Cursor cursor = db.query(TABLE_NAME, new String[]{
-                        COLUMN_ID, COLUMN_MONTO, COLUMN_DURACION, COLUMN_CLIENTE_ID},
+                        COLUMN_ID, COLUMN_MONTO, COLUMN_DURACION, COLUMN_CLIENTE_ID, COLUMN_FECHA_INICIO, COLUMN_FECHA_FIN},
                 COLUMN_ID + "=?", new String[]{String.valueOf(id)}, null, null, null);
 
         if (cursor != null && cursor.moveToFirst()) {
@@ -110,6 +140,8 @@ public class Suscripcion {
             this.monto = cursor.getInt(1);
             this.duracion = cursor.getString(2);
             this.cliente_id = cursor.getInt(3);
+            this.fechaInicio = cursor.getString(4); // Nueva columna
+            this.fechaFin = cursor.getString(5);    // Nueva columna
             cursor.close();
         }
         return this;
@@ -119,7 +151,7 @@ public class Suscripcion {
     public List<Suscripcion> findAll() {
         List<Suscripcion> suscripciones = new ArrayList<>();
         Cursor cursor = db.query(TABLE_NAME, new String[]{
-                        COLUMN_ID, COLUMN_MONTO, COLUMN_DURACION, COLUMN_CLIENTE_ID},
+                        COLUMN_ID, COLUMN_MONTO, COLUMN_DURACION, COLUMN_CLIENTE_ID, COLUMN_FECHA_INICIO, COLUMN_FECHA_FIN},
                 null, null, null, null, null);
 
         if (cursor != null && cursor.moveToFirst()) {
@@ -129,6 +161,8 @@ public class Suscripcion {
                 suscripcion.monto = cursor.getInt(1);
                 suscripcion.duracion = cursor.getString(2);
                 suscripcion.cliente_id = cursor.getInt(3);
+                suscripcion.fechaInicio = cursor.getString(4); // Nueva columna
+                suscripcion.fechaFin = cursor.getString(5);    // Nueva columna
                 suscripciones.add(suscripcion);
             } while (cursor.moveToNext());
             cursor.close();
@@ -142,6 +176,8 @@ public class Suscripcion {
         values.put(COLUMN_MONTO, this.monto);
         values.put(COLUMN_DURACION, this.duracion);
         values.put(COLUMN_CLIENTE_ID, this.cliente_id);
+        values.put(COLUMN_FECHA_INICIO, this.fechaInicio); // Nueva columna
+        values.put(COLUMN_FECHA_FIN, this.fechaFin);       // Nueva columna
         db.update(TABLE_NAME, values, COLUMN_ID + "=?", new String[]{String.valueOf(this.id)});
     }
 
