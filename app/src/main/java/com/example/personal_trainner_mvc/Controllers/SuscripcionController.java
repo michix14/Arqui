@@ -6,9 +6,9 @@ import android.widget.Toast;
 
 import com.example.personal_trainner_mvc.Models.Suscripcion.Suscripcion;
 import com.example.personal_trainner_mvc.Views.suscripcion.VSuscripcionIndex;
-import com.example.personal_trainner_mvc.estrategy.StrategyMensual;
-import com.example.personal_trainner_mvc.estrategy.StrategySuscripcion;
-import com.example.personal_trainner_mvc.estrategy.StrategyTrimestral;
+import com.example.personal_trainner_mvc.Strategy.StrategyMensual;
+import com.example.personal_trainner_mvc.Strategy.StrategySuscripcion;
+import com.example.personal_trainner_mvc.Strategy.StrategyTrimestral;
 
 import java.util.List;
 

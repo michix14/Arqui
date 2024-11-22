@@ -1,4 +1,4 @@
-package com.example.personal_trainner_mvc.estrategy;
+package com.example.personal_trainner_mvc.Strategy;
 
 
 
