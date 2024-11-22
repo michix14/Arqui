@@ -4,10 +4,9 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.util.Log;
 
 import com.example.personal_trainner_mvc.conexion.DBHelper;
-import com.example.personal_trainner_mvc.estrategy.StrategySuscripcion;
+import com.example.personal_trainner_mvc.Strategy.StrategySuscripcion;
 
 import java.util.ArrayList;
 import java.util.List;

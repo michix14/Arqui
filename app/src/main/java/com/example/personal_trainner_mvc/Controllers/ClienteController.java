@@ -6,6 +6,8 @@ import android.widget.Toast;
 
 import com.example.personal_trainner_mvc.Models.Cliente.Cliente;
 import com.example.personal_trainner_mvc.Views.cliente.MainActivity;
+import com.example.personal_trainner_mvc.Views.cliente.VClienteCreate;
+import com.example.personal_trainner_mvc.Views.cliente.VClienteShow;
 
 import java.util.List;
 
@@ -13,6 +15,9 @@ public class ClienteController {
 
     private Context context;
     private Cliente cliente;
+    private VClienteCreate vClienteCreate;
+    private MainActivity mainActivity;
+    private VClienteShow vClienteShow;
 
     // Constructor que inicializa el modelo
     public ClienteController(Context context) {
@@ -59,6 +64,11 @@ public class ClienteController {
         try {
             cliente.Validar(nombre, celular, peso, estatura, edad, direccion);
             cliente.update(id);
+            Toast.makeText(context, "Se edito el cliente correctamente", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(context, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK); // Necesario si el contexto no es una actividad
+            context.startActivity(intent);
+
         } catch (Exception e) {
             Toast.makeText(context, "Error al actualizar cliente: " + e.getMessage(), Toast.LENGTH_LONG).show();
             e.printStackTrace();

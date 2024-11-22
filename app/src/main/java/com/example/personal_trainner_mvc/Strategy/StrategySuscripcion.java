@@ -1,4 +1,4 @@
-package com.example.personal_trainner_mvc.estrategy;
+package com.example.personal_trainner_mvc.Strategy;
 
 import com.example.personal_trainner_mvc.Models.Suscripcion.Suscripcion;
 

@@ -76,12 +76,8 @@ public class VSuscripcionCreate extends AppCompatActivity {
                 throw new IllegalArgumentException("Todos los campos son obligatorios.");
             }
 
-            // Llamar al controlador para manejar la lógica
+            // Llamar al controlador
             suscripcionController.createSuscripcion(clienteSeleccionado.getId(), estrategiaSeleccionada, fechaInicio);
-
-            // Mostrar mensaje de éxito
-            Toast.makeText(this, "Suscripción creada con éxito.", Toast.LENGTH_LONG).show();
-            finish(); // Cierra la actividad o redirige a otra vista
         } catch (Exception e) {
             Toast.makeText(this, "Error al guardar la suscripción: " + e.getMessage(), Toast.LENGTH_LONG).show();
         }
